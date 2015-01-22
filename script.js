@@ -1,0 +1,34 @@
+$(document).ready(function() {
+   $('button').mouseenter(function() {
+       $(this).css("background-color","#FFFFFF");
+       $(this).css("color", "#000000");
+   });
+   $('button').mouseleave(function() {
+       $(this).css("background-color","#000000");
+       $(this).css("color", "#FFFFFF");
+   });
+   $('#home').mouseenter(function() {
+       $(this).css("background-image","url(left_arrow_neg.jpg)");
+       $('#pointer_summary').css("border-color", "transparent transparent transparent #FFFFFF");
+   });
+   $('#home').mouseleave(function() {
+       $(this).css("background-color","#000000");
+       $(this).css("background-image","none");
+       $('#pointer_summary').css("border-color", "transparent transparent transparent #000000");
+   });
+   $('#s').hover(function() {
+       $('#pointer_summary').animate({top:"38px"},500);
+   });
+   $('#e').hover(function() {
+       $('#pointer_summary').animate({top:"288px"},500);
+   });  
+   $('#c').hover(function() {
+       $('#pointer_summary').animate({top:"730px"},500);
+   });  
+   $('#ec').hover(function() {
+       $('#pointer_summary').animate({top:"1238px"},500);
+   });  
+   $('#ed').hover(function() {
+       $('#pointer_summary').animate({top:"1618px"},500);
+   });
+});
