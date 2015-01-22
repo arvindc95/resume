@@ -17,18 +17,18 @@ $(document).ready(function() {
        $('#pointer_summary').css("border-color", "transparent transparent transparent #000000");
    });
    $('#s').hover(function() {
-       $('#pointer_summary').animate({top:"38px"},500);
+       $('#pointer_summary').animate({top:"38px"},100);
    });
    $('#e').hover(function() {
-       $('#pointer_summary').animate({top:"288px"},500);
+       $('#pointer_summary').animate({top:"288px"},100);
    });  
    $('#c').hover(function() {
-       $('#pointer_summary').animate({top:"730px"},500);
+       $('#pointer_summary').animate({top:"730px"},100);
    });  
    $('#ec').hover(function() {
-       $('#pointer_summary').animate({top:"1238px"},500);
+       $('#pointer_summary').animate({top:"1238px"},100);
    });  
    $('#ed').hover(function() {
-       $('#pointer_summary').animate({top:"1618px"},500);
+       $('#pointer_summary').animate({top:"1618px"},100);
    });
 });
